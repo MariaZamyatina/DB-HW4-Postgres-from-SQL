@@ -64,7 +64,6 @@ def update_number(cur, n, id):
             break
 
 
-
 def change(cur, object, new_data, id_user):
     """ Метод изменяет данные пользователя"""
     while True:
@@ -187,10 +186,6 @@ if __name__ == '__main__':
                         surname = input('Введите фамилию пользователя: ')
                         name = input('Введите имя пользователя: ')
                         mail = input('Введите mail пользователя: ')
-                        #id_user = search_id_user_contact(cur, name, surname)
-                        # user = search_datauser(cur, name, surname)
-                        #
-                        # if user != []:
                         n = input("Будете указывать номер пользователя? (yes/no): ")
                         if n == "yes":
                             number = input('Введите номера пользователя (если несколько номеров - через запятую): ')
