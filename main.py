@@ -265,7 +265,6 @@ if __name__ == '__main__':
                             print('\nДанные какого пользователя требуется удалить?')
                             surname = input('Укажите фамилию пользователя: ')
                             name = input('Укажите имя пользователя: ')
-                            # id_user = search_id_user_contact(cur, n, s)
                             data = search_datauser(cur, name, surname)
                             if data != []:
                                 for i in data:
